@@ -1,7 +1,7 @@
 
 import boto3
 
-bucket_name = 'your-bucket-name'  # Replace with your bucket name
+bucket_name = 'anu-web-bucket-2025'  
 s3 = boto3.resource('s3')
 bucket = s3.Bucket(bucket_name)
 
